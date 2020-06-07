@@ -4,6 +4,7 @@
   "description": "This repository will contains many useful REST APIs that can be used by other frontend projects",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,9 @@
   },
   "bugs": {
     "url": "https://github.com/garyantoriano/rest-api-utils/issues"
+  },
+  "engines": {
+    "node": "14.2.0"
   },
   "homepage": "https://github.com/garyantoriano/rest-api-utils#readme"
 }
